@@ -1,0 +1,213 @@
+.video-container {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-video{
+    width: 100vw;
+}
+
+/* Fade-box styling */
+.fade-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(25, 25, 25, 0) 50%, rgba(25, 25, 25, 0.8) 80%, #191919); 
+    pointer-events: none;
+}
+
+.see-all{
+    background-color: #ff0060;
+    color: black;
+    font-family: 'baker-signet';
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+    transition: transform 0.5s ease;
+}
+
+.see-all:hover {
+    transform: scale(1.02);
+}
+
+.music-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0 70px 0;
+    overflow: hidden;
+}
+
+.covers {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+
+.slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+
+.slide img{
+    margin-right: 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+  }
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+.covers img {
+    width: 200px; /* Angiv en passende bredde for hvert billede */
+}
+
+.covers p{
+    font-size: 1rem;
+}
+
+.enter{
+    display: flex;
+    flex-direction: column;
+    font-family: 'baker-signet';
+    font-size: 1.2rem;
+}
+
+.enter input{
+    background-color: #191919;
+    border: 2px solid #ff0060;
+    border-radius: 4px;
+    width: 184px;
+    height: 50px;
+}
+
+#submit-button{
+    background-color: #ff0060;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+}
+
+#notifikation {
+    display: none; /* Sørger for, at popupen ikke vises ved indlæsning */}
+
+.popup-content {
+    background: #191919; /* Baggrundsfarve */
+    color: #ff0060; /* Tekstfarve */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px; /* Maksimal bredde */
+    position: fixed; /* Brug fixed position for at placere den på skærmen */
+    top: 50%; /* Placer den i midten af skærmen */
+    left: 50%; /* Placer den i midten af skærmen */
+    transform: translate(-50%, -50%); /* Juster elementet, så det er præcist centreret */
+    font-family: 'baker-signet';
+    font-size: 1.3rem;
+
+}
+
+
+.news{
+    font-family: 'telus-font';
+    font-size: 4rem;
+}
+
+.formular{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medlem-form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Tilføj evt. afstand mellem felterne */
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    font-family: 'baker-signet';
+    margin: 20px 0 25px;
+    font-size: 1.2rem;
+}
+
+.mail input{
+    background-color: #191919;
+    border: 2px solid #ff0060;
+    border-radius: 4px;
+    width: 390px;
+    height: 50px;
+}
+
+input{
+    color: #ff0060;
+    font-family: 'baker-signet';
+    font-size: 1.2rem;
+}
+
+#close-popup-btn{
+    background-color: #ff0060;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    width: 50px;
+}
+
+@media (max-width: 550px){
+    .medlem-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mail input{
+        width: 184px;
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+    }
+
+    .news{
+        font-size: 3rem;
+    }
+
+}
+
+
+/* Font import */
+@font-face {
+    font-family: 'telus-font';
+    src: url(../fonts/telus-font.ttf) format('truetype');
+}
+
+/* Font import */
+@font-face {
+    font-family: 'baker-signet';
+    src: url(../fonts/baker-signet.ttf) format('truetype');
+}

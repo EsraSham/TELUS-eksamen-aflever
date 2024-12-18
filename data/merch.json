@@ -1,0 +1,39 @@
+[
+    {
+      "image": "img/t-shirt-hvid.webp",
+      "alt": "hvid-t-shirt"
+    },
+    {
+      "image": "img/t-shirt-pink.webp",
+      "alt": "pink-t-shirt"
+    },
+    {
+      "image": "img/t-shirt-green.webp",
+      "alt": "grøn-t-shirt"
+    },
+    {
+      "image": "img/hoodie-white.webp",
+      "alt": "hvid-hoodie"
+    },
+    {
+      "image": "img/hoodie-pink.webp",
+      "alt": "pink-hoodie"
+    },
+    {
+      "image": "img/hoodie-green.webp",
+      "alt": "grøn-hoodie"
+    },
+    {
+      "image": "img/bag-white.webp",
+      "alt": "hvid-pose"
+    },
+    {
+      "image": "img/bag-pink.webp",
+      "alt": "pink-pose"
+    },
+    {
+      "image": "img/bag-green.webp",
+      "alt": "grøn-pose"
+    }
+  ]
+  

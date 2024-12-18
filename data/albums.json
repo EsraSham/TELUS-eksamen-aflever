@@ -1,0 +1,44 @@
+[
+    {
+        "cover": "img/csf.webp",
+        "title": "Can´t Stop Falling (Acoustic Version)",
+        "year": "2024",
+        "spotify": "https://open.spotify.com/album/4knGFbLNGVpwEEU47T4QUy?si=U7U9898qTI-eAkAr4J07_g",
+        "apple": "https://music.apple.com/dk/album/cant-stop-falling-acoustic-version/1733017639?i=1733017640"
+    },
+    {
+        "cover": "img/lsfs.webp",
+        "title": "Love Songs For Strangers",
+        "year": "2023",
+        "spotify": "https://open.spotify.com/album/6WCsgpDvwA7c4yIZEK6nFT?si=0SeDa5bPQceVCgSCBtEZWw",
+        "apple": "https://music.apple.com/dk/album/love-songs-for-strangers/1704322658"
+    },
+    {
+        "cover": "img/neon.webp",
+        "title": "Neon Lights",
+        "year": "2023",
+        "spotify": "https://open.spotify.com/album/1tRAYct1YyE6HFYx6ltHUt?si=XusVAJP-SJ-Rs63gBrjxnw",
+        "apple": "https://music.apple.com/dk/album/neon-lights-single/1699574255"
+    },
+    {
+        "cover": "img/ironic.webp",
+        "title": "Is There Something Ironic In That?",
+        "year": "2023",
+        "spotify": "https://open.spotify.com/album/3TbNpNHFp1m8YBvvHOylfK?si=IUolrAhEQmum-ojFnOnxwA",
+        "apple": "https://music.apple.com/dk/album/is-there-something-ironic-in-that-single/1688383277"
+    },
+    {
+        "cover": "img/apart.webp",
+        "title": "Apart",
+        "year": "2023",
+        "spotify": "https://open.spotify.com/album/0XBieagigMqyYIxJ3BtZVp?si=gjdJkqMNQrm_x-qSHBydKQ",
+        "apple": "https://music.apple.com/dk/album/apart-single/1685844683"
+    },
+    {
+        "cover": "img/imd.webp",
+        "title": "It Must Die (So I Can Survive)",
+        "year": "2021",
+        "spotify": "https://open.spotify.com/album/3Sa7Evm5vcz0yHp8H9ASMv?si=74vPlYdHSLqW3hd_R9gTNw",
+        "apple": "https://music.apple.com/dk/album/it-must-die-so-i-can-survive-single/1579902448"
+    }
+]

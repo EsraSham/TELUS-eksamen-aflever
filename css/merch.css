@@ -1,0 +1,72 @@
+/* Generel styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #191919;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-family: 'telus-font';
+    color: #ff0060;
+    font-weight: lighter;
+    font-size: 4rem;
+    
+}
+
+.undertekst{
+    color: #ff0060;
+    font-family: 'baker-signet';
+    text-align: center;
+    width:70vw;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.merch-boxes{
+    margin: 20vh 0 20vh 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.merch-boxes img{
+    height: 50vh;
+}
+
+.merch {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    width: 100%;
+}
+
+
+/* Font import */
+@font-face {
+    font-family: 'telus-font';
+    src: url(../fonts/telus-font.ttf) format('truetype');
+    font-display: swap;
+}
+
+
+/* Font import */
+@font-face {
+    font-family: 'baker-signet';
+    src: url(../fonts/baker-signet.ttf) format('truetype');
+    font-display: swap;
+}
+

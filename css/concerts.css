@@ -1,0 +1,105 @@
+/* Generel styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #191919;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-family: 'telus-font';
+    color: #ff0060;
+    font-weight: lighter;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.concert-boxes{
+    margin: 20vh 0 20vh 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-button{
+    color: #ff0060;
+    font-family: 'baker-signet';
+    border-top: 1px solid #ff0060;
+    border-bottom: 1px solid #ff0060;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    margin: 10px;
+    padding: 20px;
+}
+
+.text{
+    font-size: 1.3rem;
+}
+
+.text-button p {
+    margin: 1px;
+}
+
+.button{
+    color:black;
+    background-color: #ff0060;
+    border: 2px solid black;
+    width: 10rem;
+    height: 2.3rem;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: transform 0.5s ease;
+}
+
+.button:hover {
+    transform: scale(1.02);
+}
+
+
+@media (max-width: 500px){
+    .text-button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .button{
+        width: 120px;
+    }
+}
+
+
+/* Font import */
+@font-face {
+    font-family: 'telus-font';
+    src: url(../fonts/telus-font.ttf) format('truetype');
+}
+
+/* Font import */
+@font-face {
+    font-family: 'baker-signet';
+    src: url(../fonts/baker-signet.ttf) format('truetype');
+}

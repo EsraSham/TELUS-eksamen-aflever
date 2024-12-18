@@ -1,0 +1,107 @@
+/* Generel styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #191919;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-family: 'telus-font';
+    color: #ff0060;
+    font-weight: lighter;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.section{
+    margin: 15vh 0 20vh 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff0060;
+    font-family: 'baker-signet';
+}
+
+
+.sect-1, 
+.sect-2,
+.sect-3{
+width: 800px;
+margin-bottom: 3rem;
+display: flex;
+justify-content: space-between;
+}
+
+
+.text-1, 
+.text-2,
+.text-3{
+width: 400px;
+font-size: 1rem;
+line-height: 1.6;
+}
+
+.sect-1,
+.sect-2,
+.sect-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.pic-1,
+.pic-3{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.pic-2{
+    width: 400px;
+    margin-right: 20px;
+}
+
+@media (max-width: 850px) {
+    .sect-1,
+    .sect-3{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sect-2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pic-1,
+    .pic-2,
+    .pic-3{
+        margin: 50px 0 20px 0;
+    }
+}
+
+
+
+/* Font import */
+@font-face {
+    font-family: 'telus-font';
+    src: url(../fonts/telus-font.ttf) format('truetype');
+}
+
+/* Font import */
+@font-face {
+    font-family: 'baker-signet';
+    src: url(../fonts/baker-signet.ttf) format('truetype');
+}
